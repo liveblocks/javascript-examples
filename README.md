@@ -5,13 +5,16 @@
   </a>
 </p>
 
+# Liveblocks examples with no front-end framework
+
+This repo contains Liveblocks examples that do not rely on any front-end technologies. It uses [express](https://expressjs.com/) for the authentication endpoint and [esbuild](https://esbuild.github.io/) for the bundling.
+
 ## Getting started
 
 To run examples locally
 
 - Install all dependencies with `npm install`
-- Create an account on [liveblocks.io](https://liveblocks.io)
-- Copy your secret key from the administration
+- Create an account on [liveblocks.io](https://liveblocks.io/dashboard)
+- Copy your secret key from the [administration](https://liveblocks.io/dashboard/apikeys)
 - Create a file named `.env` and add your Liveblocks secret as environment variable `LIVEBLOCKS_SECRET_KEY=sk_test_yourkey`
-- Build the app with `npm run build`
 - Run `npm run dev` and go to `http://localhost:3000`

@@ -10,7 +10,7 @@ const cursorsContainer = document.getElementById("cursors-container");
 
 /**
  * Subscribe to every others presence updates.
- * The callback will be called if you or someone else enter or leave the room
+ * The callback will be called if you or someone else enters or leaves the room
  * or when someone presence is updated
  */
 room.subscribe("others", (others, event) => {
