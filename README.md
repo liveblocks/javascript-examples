@@ -5,7 +5,7 @@
   </a>
 </p>
 
-# Liveblocks examples with no front-end framework
+# Liveblocks examples without front-end framework
 
 This repo contains Liveblocks examples that do not rely on any front-end technologies. It uses [express](https://expressjs.com/) for the authentication endpoint and [esbuild](https://esbuild.github.io/) for the bundling.
 
