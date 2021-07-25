@@ -16,7 +16,7 @@ app.post("/auth", (req, res) => {
       res.send(authResponse.body);
     })
     .catch((er) => {
-      console.error(er);
+      res.status(403).end();
     });
 });
 
