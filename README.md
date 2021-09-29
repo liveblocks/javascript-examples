@@ -5,7 +5,11 @@
   </a>
 </p>
 
-# Liveblocks examples without front-end framework
+# Deprecated
+This repository is deprecated, please use [https://github.com/liveblocks/liveblocks/tree/main/examples/express-javascript-live-cursors](https://github.com/liveblocks/liveblocks/tree/main/examples/express-javascript-live-cursors).
+
+
+## Liveblocks examples without front-end framework
 
 This repo contains Liveblocks examples that do not rely on any front-end technologies. It uses [express](https://expressjs.com/) for the authentication endpoint and [esbuild](https://esbuild.github.io/) for the bundling.
 
